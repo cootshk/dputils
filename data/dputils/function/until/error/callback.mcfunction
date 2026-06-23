@@ -1,6 +1,6 @@
 ## 
-## @param function: the function to run.
-## @param i: the current repititon
+## @param {function} function: the function to run.
+## @param {number} i: the current repititon
 ## @return the number of runs
 ## @borrowedstack
 ##

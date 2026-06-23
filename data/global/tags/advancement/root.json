@@ -1,6 +1,6 @@
 {
     "values": [
-        "dputils:value"
+        "global:root"
     ],
     "replace": true
 }

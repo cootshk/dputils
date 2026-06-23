@@ -1,0 +1,6 @@
+{
+    "values": [
+        "dputils:event/on_death",
+        "#dputilstest:event/on_death"
+    ]
+}

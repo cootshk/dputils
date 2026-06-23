@@ -1,0 +1,12 @@
+
+{
+  "criteria": {
+    "dputils:event/on_death": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "dputils:event/callback/on_death"
+  },
+  "sends_telemetry_event": false
+}

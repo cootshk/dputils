@@ -1,0 +1,2 @@
+tellraw @s [{storage:"dputils:test",nbt:"prefix",interpret:true}, {text:"Disabled dputils test mode.",color:"red"},{text:"\n",color:"white"},"You need to reload to apply changes. ", {text:"[Reload Now]",bold:true,click_event:{action:"run_command",command:"reload"}}]
+scoreboard players set EnableTesting dputils -1

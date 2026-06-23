@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "dputils test mod",
+        "description": "Some testing for dputils.",
+        "icon": {
+            "id": "minecraft:ender_chest"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dputils:dputils",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "sends_telemetry_event": false
+}
