@@ -1,1 +1,0 @@
-$tellraw @a "For I: $(i)"

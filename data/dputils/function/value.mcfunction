@@ -4,5 +4,5 @@
 # @example return run function #dputils:value {n:2}
 # @param {n} any (probably integer) - the value to return
 
-$scoreboard players set temp.returned_value dputils $(n)
-return run scoreboard players get temp.returned_value dputils
+$scoreboard players set temp.acc dputils $(n)
+return run function dputils:acc

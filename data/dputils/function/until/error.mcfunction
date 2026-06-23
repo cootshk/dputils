@@ -8,8 +8,10 @@
 # Allocate a stack frame to store our variables
 function dputils:stack/allocate {function:until_error}
 
+tellraw @a "running loop"
+
 # Call the loop
-$data modify storage dputils:stack while[-1] set value {callback:"$(c)",i:0}
+$data modify storage dputils:stack until_error[-1] merge value {function:"$(c)",i:0}
 execute store result storage dputils:temp n int 1 run function dputils:until/error/callback with storage dputils:stack until_error[-1]
 
 # Cleanup the stack

@@ -1,7 +1,5 @@
 # Stack
 
-Functions creating the stack have to re-implement a lot of things (i.e. loops) to prevent circular references.
-
 ## Usage
 Allocate a stack frame for yourself with
 ```mcfunction
@@ -19,3 +17,5 @@ Once you are done with your stack frame, you can clear it with
 ```mcfunction
 function dputils:stack/clear {function:my_func}
 ```
+
+Allocating or clearing the stack does not touch `temp.acc`.

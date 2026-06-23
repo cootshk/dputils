@@ -1,8 +1,0 @@
-{
-    "values": [
-        "dputils:for/start",
-        "#dputils:for/i",
-        "dputils:for/end"
-    ],
-    "replace": true
-}

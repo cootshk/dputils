@@ -1,6 +1,6 @@
 # Event handlers
 
-Every file in this folder should first call `_revoke_advancement` with the name of the advancement.
+Every file in this folder should first call `_/revoke_advancement` with the name of the advancement.
 
 Filenames should match the events in [`advancement@dputils:event`](/data/dputils/advancement/event) and [`tags/function@dputils:event`](/data/dputils/tags/function/event)
 
